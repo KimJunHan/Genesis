@@ -4,7 +4,7 @@ class Engineer(object):
         self.name = "Hundai"
         self.Engineer_on = False
 
-    def __new__(cls):
-        if not hasattr(cls, 'instance'):
-            cls.instance = super(Engineer, cls).__new__(cls)
-        return cls.instance
+    # def __new__(cls):
+    #     if not hasattr(cls, 'instance'):
+    #         cls.instance = super(Engineer, cls).__new__(cls)
+    #     return cls.instance

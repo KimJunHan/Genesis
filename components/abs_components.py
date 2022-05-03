@@ -3,13 +3,17 @@ from abc import ABCMeta, abstractmethod
 class abs_components(metaclass=ABCMeta):
 
     @abstractmethod
-    def airback(self):
-        return
+    def accelerator(self):
+        pass
 
     @abstractmethod
-    def brackpad(self):
-        return
+    def brake(self):
+        pass
 
     @abstractmethod
-    def engin(self):
-        return
+    def engine(self):
+        pass
+
+    @abstractmethod
+    def steering(self):
+        pass

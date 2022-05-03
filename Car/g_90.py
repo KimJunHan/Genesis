@@ -1,5 +1,5 @@
-import components
+from components import abs_components
 
-class g_90(components):
+class G_90(abs_components):
     def __init__(self):
-        components.
+        pass
